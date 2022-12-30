@@ -22,6 +22,6 @@ int main(){
     scanf("%d", &rhom.y2);
     struct Rhombus rhom;
     area(&rhom);
-    perimeter(rhom);
+    perimeter(&rhom);
     return 0;
 }
