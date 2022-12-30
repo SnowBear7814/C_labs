@@ -6,7 +6,7 @@ struct Rhombus{
     int x2;
     int y2;
 } rhom;
-void area(struct Rhombus){
+void area(struct Rhombus*){
     float ar = abs(rhom.x1 - rhom.x2) * abs(rhom.y1 - rhom.y2);
     printf("%f\n", ar);
 }
@@ -20,7 +20,8 @@ int main(){
     scanf("%d", &rhom.x2);
     scanf("%d", &rhom.y1);
     scanf("%d", &rhom.y2);
-    area(rhom);
+    struct Rhombus rhom;
+    area(&rhom);
     perimeter(rhom);
     return 0;
 }
