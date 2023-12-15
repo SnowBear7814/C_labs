@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 int main() {
+    //1
     time_t t = time(NULL);
     struct tm* current_time = localtime(&t);
     FILE*output = fopen("Best_time.txt", "w");
