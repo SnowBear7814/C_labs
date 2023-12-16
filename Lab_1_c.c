@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int num_int;
-    float num_float;
-    char symbol;
+    int num_int; //целое
+    float num_float; //вещественное
+    char symbol; //символ
     printf("Input int num, float num and symbol:\n");
     scanf("%d", &num_int);
     scanf("%f", &num_float);
