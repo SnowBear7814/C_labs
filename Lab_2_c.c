@@ -25,6 +25,7 @@ float sinus(float x){
 }
 
 int main() {
+    //вариант 15
     float b, z1, z2, a, res_sin;
     printf("Input b:\n");
     scanf("%f", &b);
